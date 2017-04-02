@@ -32,8 +32,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func reset(_ sender: Any) {
-        nameField.text = ""
-        lyricsView.text = ""
+        nameField.text = nil
+        lyricsView.text = nil
     }
 
     @IBAction func displayLyrics(_ sender: Any) {

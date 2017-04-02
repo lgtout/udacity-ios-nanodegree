@@ -58,6 +58,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hdV-Cw-82e" firstAttribute="leading" secondItem="BO7-Mw-T9a" secondAttribute="trailing" constant="-200" id="DK1-SI-Dj6"/>
+                            <constraint firstItem="BO7-Mw-T9a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RBW-O5-IsE"/>
                             <constraint firstItem="BO7-Mw-T9a" firstAttribute="top" secondItem="hdV-Cw-82e" secondAttribute="bottom" constant="106" id="VvP-fa-xZm"/>
                             <constraint firstItem="Ic2-1r-ZCj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X3J-R9-3tE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hdV-Cw-82e" secondAttribute="trailing" constant="91" id="XHi-bw-AMR"/>
