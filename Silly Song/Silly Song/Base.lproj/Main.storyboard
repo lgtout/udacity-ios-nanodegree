@@ -37,14 +37,14 @@
                                 <rect key="frame" x="107" y="201" width="161" height="21"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
                                 <connections>
                                     <action selector="displayLyrics:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="dyJ-DQ-bq1"/>
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="APf-Jw-QU7"/>
                                 </connections>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BO7-Mw-T9a">
-                                <rect key="frame" x="67" y="328" width="240" height="128"/>
+                                <rect key="frame" x="67" y="345" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="DE3-yM-eUD"/>
@@ -59,7 +59,7 @@
                         <constraints>
                             <constraint firstItem="hdV-Cw-82e" firstAttribute="leading" secondItem="BO7-Mw-T9a" secondAttribute="trailing" constant="-200" id="DK1-SI-Dj6"/>
                             <constraint firstItem="BO7-Mw-T9a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RBW-O5-IsE"/>
-                            <constraint firstItem="BO7-Mw-T9a" firstAttribute="top" secondItem="hdV-Cw-82e" secondAttribute="bottom" constant="106" id="VvP-fa-xZm"/>
+                            <constraint firstItem="BO7-Mw-T9a" firstAttribute="top" secondItem="hdV-Cw-82e" secondAttribute="bottom" constant="123" id="VvP-fa-xZm"/>
                             <constraint firstItem="Ic2-1r-ZCj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X3J-R9-3tE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hdV-Cw-82e" secondAttribute="trailing" constant="91" id="XHi-bw-AMR"/>
                             <constraint firstItem="hdV-Cw-82e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="91" id="csC-SW-f9f"/>
